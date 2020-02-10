@@ -12,6 +12,13 @@
 		658D299923F206C000D7D20A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658D299723F206C000D7D20A /* Main.storyboard */; };
 		658D299B23F206C100D7D20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658D299A23F206C100D7D20A /* Assets.xcassets */; };
 		658D299E23F206C100D7D20A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658D299C23F206C100D7D20A /* LaunchScreen.storyboard */; };
+		658D29AC23F2099E00D7D20A /* SpreadResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D29AB23F2099E00D7D20A /* SpreadResult.swift */; };
+		658D29AE23F20BB800D7D20A /* SpreadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D29AD23F20BB800D7D20A /* SpreadsViewController.swift */; };
+		658D29B023F20C2800D7D20A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 658D29AF23F20C2800D7D20A /* Default-568h@2x.png */; };
+		658D29B223F20E6200D7D20A /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D29B123F20E6200D7D20A /* StyleGuide.swift */; };
+		658D29B423F20F2500D7D20A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658D29B323F20F2500D7D20A /* Colors.xcassets */; };
+		658D29B723F20F7500D7D20A /* CalculateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D29B623F20F7500D7D20A /* CalculateButton.swift */; };
+		658D29B923F2174600D7D20A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D29B823F2174600D7D20A /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		658D299A23F206C100D7D20A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		658D299D23F206C100D7D20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		658D299F23F206C100D7D20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658D29AB23F2099E00D7D20A /* SpreadResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadResult.swift; sourceTree = "<group>"; };
+		658D29AD23F20BB800D7D20A /* SpreadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsViewController.swift; sourceTree = "<group>"; };
+		658D29AF23F20C2800D7D20A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		658D29B123F20E6200D7D20A /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
+		658D29B323F20F2500D7D20A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = "../../../../../../Anchor Point 5/Anchor Point 5 Projects/Guided Projects/HypeCloudKit/HypeCloudKit/HypeCloudKit/Resources/Colors.xcassets"; sourceTree = "<group>"; };
+		658D29B623F20F7500D7D20A /* CalculateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateButton.swift; sourceTree = "<group>"; };
+		658D29B823F2174600D7D20A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +52,7 @@
 		658D298523F206C000D7D20A = {
 			isa = PBXGroup;
 			children = (
+				658D29AF23F20C2800D7D20A /* Default-568h@2x.png */,
 				658D299023F206C000D7D20A /* SpreadsCalculator */,
 				658D298F23F206C000D7D20A /* Products */,
 			);
@@ -68,6 +83,7 @@
 				658D299123F206C000D7D20A /* AppDelegate.swift */,
 				658D299323F206C000D7D20A /* SceneDelegate.swift */,
 				658D299A23F206C100D7D20A /* Assets.xcassets */,
+				658D29B323F20F2500D7D20A /* Colors.xcassets */,
 				658D299C23F206C100D7D20A /* LaunchScreen.storyboard */,
 				658D299F23F206C100D7D20A /* Info.plist */,
 			);
@@ -77,6 +93,7 @@
 		658D29A623F2082400D7D20A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				658D29B523F20F5C00D7D20A /* Custom Buttons */,
 				658D299723F206C000D7D20A /* Main.storyboard */,
 			);
 			path = Views;
@@ -94,6 +111,8 @@
 		658D29A823F2083400D7D20A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				658D29AB23F2099E00D7D20A /* SpreadResult.swift */,
+				658D29B123F20E6200D7D20A /* StyleGuide.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -108,8 +127,18 @@
 		658D29AA23F2083B00D7D20A /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				658D29AD23F20BB800D7D20A /* SpreadsViewController.swift */,
+				658D29B823F2174600D7D20A /* ResultViewController.swift */,
 			);
 			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		658D29B523F20F5C00D7D20A /* Custom Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				658D29B623F20F7500D7D20A /* CalculateButton.swift */,
+			);
+			path = "Custom Buttons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +199,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658D29B423F20F2500D7D20A /* Colors.xcassets in Resources */,
 				658D299E23F206C100D7D20A /* LaunchScreen.storyboard in Resources */,
+				658D29B023F20C2800D7D20A /* Default-568h@2x.png in Resources */,
 				658D299B23F206C100D7D20A /* Assets.xcassets in Resources */,
 				658D299923F206C000D7D20A /* Main.storyboard in Resources */,
 			);
@@ -184,7 +215,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				658D299223F206C000D7D20A /* AppDelegate.swift in Sources */,
+				658D29AC23F2099E00D7D20A /* SpreadResult.swift in Sources */,
+				658D29B923F2174600D7D20A /* ResultViewController.swift in Sources */,
 				658D299423F206C000D7D20A /* SceneDelegate.swift in Sources */,
+				658D29B223F20E6200D7D20A /* StyleGuide.swift in Sources */,
+				658D29B723F20F7500D7D20A /* CalculateButton.swift in Sources */,
+				658D29AE23F20BB800D7D20A /* SpreadsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6T2JGDSTV;
-				INFOPLIST_FILE = SpreadsCalculator/Info.plist;
+				INFOPLIST_FILE = SpreadsCalculator/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,7 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6T2JGDSTV;
-				INFOPLIST_FILE = SpreadsCalculator/Info.plist;
+				INFOPLIST_FILE = SpreadsCalculator/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
